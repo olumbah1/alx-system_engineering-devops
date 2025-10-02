@@ -1,2 +1,6 @@
 #!/bin/bash
 echo $((128 + TRUEKNOWLEDGE))
+export TRUEKNOWLEDGE=0
+./8-true_knowledge
+export TRUEKNOWLEDGE=89
+./8-true_knowledge
